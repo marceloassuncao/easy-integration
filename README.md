@@ -1,0 +1,2 @@
+# easy-integration
+integration plugin
