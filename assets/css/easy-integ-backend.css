@@ -1,0 +1,27 @@
+.esi-btn {
+  padding: 10px 25px;
+  background-color: #1e9d61;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  transition: transform 50ms ease-in-out, opacity 50ms ease-in-out;
+}
+
+.esi-btn:active {
+  opacity: 0.8;
+  transform: translate(-2px, 2px);
+}
+
+.esi-btn:disabled {
+  opacity: 0.3;
+}
+
+.esi-container {
+  padding: 15px;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
